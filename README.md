@@ -1,14 +1,29 @@
-# Start Framework – React App
+# Start Framework Portfolio 🎨
 
-This is a simple personal portfolio project built with **React**.  
-It includes smooth routing and showcases my skills, projects, and contact info.
+A clean, responsive portfolio website built with **React** to showcase creative projects.
 
-## 🚀 Features
-- Built with **React + Vite**
-- Used **React Hooks**: `useState`, `useEffect`
-- Implemented **React Router DOM** for routing
-- Deployed with **gh-pages** to GitHub Pages
-- Clean & responsive design
-- Font Awesome icons + local images
+## 🔧 Technologies Used:
+- React
+- React Router
+- useState & useEffect Hooks
+- Bootstrap
+- Font Awesome Icons
 
-## 📁 Folder Structure
+## 📦 Features:
+- Responsive layout
+- Routing between pages (Home, About, Portfolio, Contact)
+- Clean design & animated transitions
+- Static asset management using Vite
+- Deployed on **Vercel**
+
+## 🔗 Live Demo:
+[🌐 start-framework.vercel.app](https://start-framework-beta-six.vercel.app/)
+
+
+
+## 🛠️ Installation:
+```bash
+git clone https://github.com/your-username/start-framework.git
+cd start-framework
+npm install
+npm run dev
