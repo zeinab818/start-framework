@@ -1,0 +1,28 @@
+.label{
+    color: #191828;
+    font-size: 20px;
+}
+.contact{
+    background-color: #eae8ff;
+    margin-top: 100px;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.send{
+    background-color:#191828 ;
+    color: #eae8ff ;
+    border-radius: 12px;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width:950px) {
+    .contact .container .form{
+        width: 90% !important;
+    }
+    
+}

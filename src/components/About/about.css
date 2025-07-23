@@ -1,0 +1,13 @@
+.about{
+    background-color: #eae8ff;
+    margin-top: 100px;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.about .row{
+    width: 90%;
+}

@@ -1,0 +1,64 @@
+.navbar .navP{
+    padding: 30px 0;
+}
+.navbar-scrolled {
+    padding: 20px 0;
+}
+.navbar .navbar-brand{
+    font-size:  2rem;
+    color: white;
+}
+.navbar .navbar-brand:hover{
+    color: #eae8ff;
+}
+.navbar .nav-link
+{
+    font-size: 1rem;
+    color: white;
+    transition: all 0.5s;
+}
+.navbar .nav-item{
+    padding-left: 40px;
+}
+.navbar .nav-link:hover
+{
+    color: black;
+    background-color: #eae8ff;
+    border-radius: 10px;
+
+}
+.navbar{
+    background-color: #1f1d36;
+}
+
+.navbar-toggler {
+    background-color: #000; 
+    border: none;
+    border-radius: 6px; 
+    padding: 6px;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+    background-color: transparent !important;
+}
+
+
+
+
+@media screen and (max-width: 980px) {
+    .navbar .navbar-nav {
+        justify-content: center;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .navbar .nav-link {
+        text-align: center;
+        width: 100%;
+    }
+    .navbar .navbar-brand{
+    font-size:  1.5rem;
+}
+}
+
